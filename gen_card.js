@@ -34,10 +34,10 @@ async function generateCard() {
   ctx.fillStyle = 'rgba(255,255,255,0.95)';
   ctx.fillText('Your Trusted Mechanic', 60, 155);
 
-  // Services (LEFT side)
+  // Services (shifted toward middle)
   ctx.font = 'bold 56px Arial';
   ctx.fillStyle = '#ff6b35';
-  ctx.fillText('Expert Service', 60, 290);
+  ctx.fillText('Expert Service', 100, 290);
 
   const services = [
     '✓ 20+ Years Experience',
@@ -49,7 +49,7 @@ async function generateCard() {
   ctx.font = '22px Arial';
   ctx.fillStyle = 'rgba(255,255,255,0.85)';
   services.forEach((service, i) => {
-    ctx.fillText(service, 60, 340 + (i * 40));
+    ctx.fillText(service, 100, 340 + (i * 40));
   });
 
   // Photo box (WIDE, stretching to right edge, slightly smaller)
