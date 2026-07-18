@@ -30,9 +30,9 @@ async function generateCard() {
   ctx.fillText('Rumbello Auto Repair', 60, 125);
 
   // Subtitle
-  ctx.font = '24px Arial';
+  ctx.font = '32px Arial';
   ctx.fillStyle = 'rgba(255,255,255,0.95)';
-  ctx.fillText('Your Trusted Mechanic', 60, 160);
+  ctx.fillText('Your Trusted Mechanic', 60, 165);
 
   // Services (shifted toward middle)
   ctx.font = 'bold 56px Arial';
