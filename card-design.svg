@@ -1,0 +1,47 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orange header banner -->
+  <rect width="1200" height="180" fill="#ff6b35"/>
+
+  <!-- Main blue background -->
+  <rect y="180" width="1200" height="450" fill="#1a3a52"/>
+
+  <!-- Header text -->
+  <text x="60" y="110" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="white">
+    Rumbello Auto Repair
+  </text>
+  <text x="60" y="155" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.95)">
+    Your Trusted Mechanic
+  </text>
+
+  <!-- Small photo box (left side) -->
+  <rect x="60" y="230" width="220" height="220" rx="8" fill="#3a5a72" stroke="#555" stroke-width="2"/>
+  <text x="170" y="340" font-family="Arial, sans-serif" font-size="32" fill="#999" text-anchor="middle">
+    🚗
+  </text>
+
+  <!-- Right side content -->
+  <text x="340" y="260" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ff6b35">
+    Expert Service
+  </text>
+
+  <text x="340" y="300" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.85)">
+    ✓ 20+ Years Experience
+  </text>
+  <text x="340" y="330" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.85)">
+    ✓ ASE-Certified Technicians
+  </text>
+  <text x="340" y="360" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.85)">
+    ✓ 4.8-Star Rating (89 Reviews)
+  </text>
+  <text x="340" y="390" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.85)">
+    ✓ Free Estimates
+  </text>
+
+  <!-- Bottom contact info -->
+  <text x="60" y="520" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    📞 (973) 515-8818
+  </text>
+  <text x="60" y="555" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.8)">
+    📍 630 NJ-10, Whippany, NJ | Mon-Sat: 8am-5:30pm
+  </text>
+</svg>
