@@ -35,9 +35,9 @@ async function generateCard() {
   ctx.fillText('Your Trusted Mechanic', 60, 155);
 
   // Services (LEFT side)
-  ctx.font = 'bold 48px Arial';
+  ctx.font = 'bold 56px Arial';
   ctx.fillStyle = '#ff6b35';
-  ctx.fillText('Expert Service', 60, 280);
+  ctx.fillText('Expert Service', 60, 290);
 
   const services = [
     '✓ 20+ Years Experience',
@@ -52,8 +52,8 @@ async function generateCard() {
     ctx.fillText(service, 60, 340 + (i * 40));
   });
 
-  // Photo box (WIDE, stretching to right edge)
-  const photoX = 650, photoY = 200, photoWidth = 530, photoHeight = 300;
+  // Photo box (WIDE, stretching to right edge, slightly smaller)
+  const photoX = 660, photoY = 210, photoWidth = 510, photoHeight = 280;
 
   if (shopImg) {
     ctx.drawImage(shopImg, photoX, photoY, photoWidth, photoHeight);
