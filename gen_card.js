@@ -28,7 +28,7 @@ async function generateCard() {
   ctx.textAlign = 'center';
   ctx.font = 'bold 90px Arial';
   ctx.fillStyle = 'white';
-  ctx.fillText('Rumbello Auto Repair', width / 2, 130);
+  ctx.fillText('Rumbello Auto Repair', width / 2, 110);
 
   // Subtitle (centered)
   ctx.font = '42px Arial';
