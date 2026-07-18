@@ -35,9 +35,9 @@ async function generateCard() {
   ctx.fillText('Your Trusted Mechanic', 60, 155);
 
   // Services (LEFT side)
-  ctx.font = 'bold 36px Arial';
+  ctx.font = 'bold 48px Arial';
   ctx.fillStyle = '#ff6b35';
-  ctx.fillText('Expert Service', 60, 270);
+  ctx.fillText('Expert Service', 60, 280);
 
   const services = [
     '✓ 20+ Years Experience',
@@ -46,14 +46,14 @@ async function generateCard() {
     '✓ Free Estimates'
   ];
 
-  ctx.font = '18px Arial';
+  ctx.font = '22px Arial';
   ctx.fillStyle = 'rgba(255,255,255,0.85)';
   services.forEach((service, i) => {
-    ctx.fillText(service, 60, 320 + (i * 35));
+    ctx.fillText(service, 60, 340 + (i * 40));
   });
 
-  // Photo box (RIGHT side)
-  const photoX = 920, photoY = 230, photoSize = 220;
+  // Photo box (CENTER-RIGHT, larger)
+  const photoX = 750, photoY = 200, photoSize = 300;
 
   if (shopImg) {
     ctx.drawImage(shopImg, photoX, photoY, photoSize, photoSize);
