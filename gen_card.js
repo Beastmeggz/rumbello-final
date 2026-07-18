@@ -52,8 +52,8 @@ async function generateCard() {
     ctx.fillText(service, 100, 340 + (i * 40));
   });
 
-  // Photo box (WIDE, stretching to right edge, slightly smaller)
-  const photoX = 660, photoY = 210, photoWidth = 510, photoHeight = 280;
+  // Photo box (WIDE, stretching to right edge, even smaller)
+  const photoX = 665, photoY = 215, photoWidth = 495, photoHeight = 265;
 
   if (shopImg) {
     ctx.drawImage(shopImg, photoX, photoY, photoWidth, photoHeight);
