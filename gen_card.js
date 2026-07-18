@@ -25,14 +25,14 @@ async function generateCard() {
   ctx.fillRect(0, 180, width, height - 180);
 
   // Title
-  ctx.font = 'bold 52px Arial';
+  ctx.font = 'bold 64px Arial';
   ctx.fillStyle = 'white';
-  ctx.fillText('Rumbello Auto Repair', 60, 110);
+  ctx.fillText('Rumbello Auto Repair', 60, 120);
 
   // Subtitle
   ctx.font = '24px Arial';
   ctx.fillStyle = 'rgba(255,255,255,0.95)';
-  ctx.fillText('Your Trusted Mechanic', 60, 155);
+  ctx.fillText('Your Trusted Mechanic', 60, 160);
 
   // Services (shifted toward middle)
   ctx.font = 'bold 56px Arial';
