@@ -1,0 +1,65 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1a3a52"/>
+
+  <!-- Top Header -->
+  <rect width="1200" height="60" fill="#9b8b7e"/>
+  <text x="30" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="white">Rumbello Auto Repair : Welcome</text>
+  <text x="30" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="rgba(255,255,255,0.7)">rumbello-final.vercel.app</text>
+  <rect x="1100" y="18" width="80" height="24" rx="12" fill="#666"/>
+  <text x="1115" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="white" font-weight="500">Crop</text>
+
+  <!-- Main Content Area -->
+  <!-- Left Side Content -->
+  <g>
+    <!-- Logo -->
+    <rect x="50" y="100" width="50" height="50" rx="8" fill="white"/>
+    <text x="75" y="135" font-size="28" text-anchor="middle" dominant-baseline="middle">🔧</text>
+
+    <!-- Tagline -->
+    <text x="50" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#64b5f6" letter-spacing="1">EXPERT AUTO REPAIR</text>
+
+    <!-- Headline -->
+    <text x="50" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white" line-height="1.2">Expert Auto</text>
+    <text x="50" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">Repair</text>
+    <tspan x="50" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#ff6b35">You Can Trust</tspan>
+
+    <!-- Tags -->
+    <g>
+      <!-- Tag 1 -->
+      <rect x="50" y="380" width="140" height="32" rx="16" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+      <text x="120" y="402" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle">20+ Years</text>
+
+      <!-- Tag 2 -->
+      <rect x="200" y="380" width="160" height="32" rx="16" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+      <text x="280" y="402" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle">ASE-Certified</text>
+
+      <!-- Tag 3 -->
+      <rect x="380" y="380" width="150" height="32" rx="16" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+      <text x="455" y="402" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" text-anchor="middle">Free Est.</text>
+    </g>
+
+    <!-- URL -->
+    <text x="50" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)">rumbello-final.vercel.app</text>
+  </g>
+
+  <!-- Right Side - Images Grid -->
+  <g>
+    <!-- Large Image -->
+    <rect x="750" y="100" width="200" height="280" rx="8" fill="#2a4a62"/>
+    <text x="850" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#999" text-anchor="middle" dominant-baseline="middle">🚗 Shop Photo</text>
+
+    <!-- Small Image 1 -->
+    <rect x="970" y="100" width="180" height="130" rx="8" fill="#2a4a62"/>
+    <text x="1060" y="165" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#999" text-anchor="middle" dominant-baseline="middle">Photo 2</text>
+
+    <!-- Small Image 2 -->
+    <rect x="970" y="250" width="180" height="130" rx="8" fill="#2a4a62"/>
+    <text x="1060" y="315" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#999" text-anchor="middle" dominant-baseline="middle">Photo 3</text>
+  </g>
+
+  <!-- Bottom Bar -->
+  <rect y="570" width="1200" height="60" fill="#0f2438"/>
+  <text x="50" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="white">Rumbello Auto Repair — Expert Mechanic in Whippany, NJ</text>
+  <text x="50" y="618" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)">rumbello-final.vercel.app</text>
+</svg>
