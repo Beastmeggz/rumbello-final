@@ -1,9 +1,0 @@
-{
-  "name": "rumbello-auto-repair",
-  "version": "1.0.0",
-  "description": "Professional auto repair website",
-  "private": true,
-  "dependencies": {
-    "@vercel/og": "^0.6.2"
-  }
-}
