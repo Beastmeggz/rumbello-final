@@ -24,15 +24,18 @@ async function generateCard() {
   ctx.fillStyle = '#1a3a52';
   ctx.fillRect(0, 180, width, height - 180);
 
-  // Title
+  // Title (centered)
+  ctx.textAlign = 'center';
   ctx.font = 'bold 90px Arial';
   ctx.fillStyle = 'white';
-  ctx.fillText('Rumbello Auto Repair', 60, 130);
+  ctx.fillText('Rumbello Auto Repair', width / 2, 130);
 
-  // Subtitle
+  // Subtitle (centered)
   ctx.font = '42px Arial';
   ctx.fillStyle = 'rgba(255,255,255,0.95)';
-  ctx.fillText('Your Trusted Mechanic', 60, 170);
+  ctx.fillText('Your Trusted Mechanic', width / 2, 170);
+
+  ctx.textAlign = 'left';
 
   // Services (shifted toward middle)
   ctx.font = 'bold 56px Arial';
