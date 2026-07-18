@@ -52,19 +52,19 @@ async function generateCard() {
     ctx.fillText(service, 60, 340 + (i * 40));
   });
 
-  // Photo box (CENTER-RIGHT, larger)
-  const photoX = 750, photoY = 200, photoSize = 300;
+  // Photo box (WIDE, stretching to right edge)
+  const photoX = 650, photoY = 200, photoWidth = 530, photoHeight = 300;
 
   if (shopImg) {
-    ctx.drawImage(shopImg, photoX, photoY, photoSize, photoSize);
+    ctx.drawImage(shopImg, photoX, photoY, photoWidth, photoHeight);
   } else {
     ctx.fillStyle = '#3a5a72';
-    ctx.fillRect(photoX, photoY, photoSize, photoSize);
+    ctx.fillRect(photoX, photoY, photoWidth, photoHeight);
   }
 
   ctx.strokeStyle = '#555';
   ctx.lineWidth = 2;
-  ctx.strokeRect(photoX, photoY, photoSize, photoSize);
+  ctx.strokeRect(photoX, photoY, photoWidth, photoHeight);
 
   ctx.textAlign = 'left';
 
